@@ -1,0 +1,27 @@
+select id from result where gpa=4;
+
+select id,gpa from result where gpa=4;
+select * from result where gpa=4;
+
+select * from result where gpa<4;
+select * from result where gpa>4;
+select * from result where gpa between 3.5 and 4;
+select * from student where name='Rahim';
+select * from student where name='Mahmudul';
+select * from student where name in('Mahmudul','Rahim'); // je name mach korbe seigulu show korbe.
+select * from student where name not in('Mahmudul','Rahim');// si name cara baki gulu show korbe.
+
+*show email address of mahomudul.
+*inform me gpa of student id 2.
+*show all courses with credit 3;
+*inform me gpa of student id 2 at course cse 3011.
+select gpa from result where id=2 and code='cse3011';
+select * from student where email like '%gmail.com';
+select * from student where email like 'M%';
+select * from student where email like 's%';
+select * from student where email like '_s%';
+select * from student where email like '__m%';
+
+
+
+*id, name, email.

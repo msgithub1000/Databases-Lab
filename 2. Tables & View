@@ -1,0 +1,33 @@
+*** create table
+                use mithun;
+                create table student(
+                id int not null auto_increment,
+                First_Name varchar(100) not null,
+                Last_Name varchar(100) not null,
+                primary key(id)
+                );
+                show tables;
+                describe student;
+*** alter table                                                     //add any name into table
+                alter table student
+                add age int(40) not null;
+*** modify column                                                   //not null to null-> null=yes
+                alter table student
+                modify First_Name varchar(50) null;
+*** drop column                                                     //any name drop
+                alter table student
+                drop column address;
+*** rename column                                                   //rename any name
+                alter table student
+                change column Last_Name Surname
+                varchar(100) not null;
+*** rename table                                                    //change table name
+                alter table student
+                rename to student_details;
+*** truncate table                                                  //remove table data without table name
+                truncate table student;
+                select * from student;
+                empty set;
+*** drop table                                                      //delete table name and data
+                drop table student;
+     

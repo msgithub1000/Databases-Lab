@@ -1,0 +1,8 @@
+destop->start->all programs->xampp->xampp control panel-> click on start of apache & mysql
+destop->start->run->cmd->Enter
+cd/
+cd xampp
+cd mysql
+cd bin
+mysql -u root -p -h 127.0.0.1
+password: 

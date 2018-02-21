@@ -1,0 +1,9 @@
+*** create database
+                  create database student;
+                  show databases;
+*** select database
+                  use student;
+*** drop database
+                   drop database student;
+                   show databases;
+  
